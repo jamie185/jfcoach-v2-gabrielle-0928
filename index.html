@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JF Coach V2 · Gabrielle's 28 September feedback</title>
+<meta name="description" content="Every item from Gabrielle's 28 September feedback, built and checked in JF Coach V2.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#222326;--ink2:rgba(31,32,37,.6);--ink3:rgba(31,32,37,.38);--cap:#8A8F99;--canvas:#F5F7FB;--card:#EBF0F8;--dark:#1F2025;--line:#ECEEF2;--ok:#8BD42A;--ease:cubic-bezier(.2,.7,.2,1)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font:500 18px/1.45 Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.03em;line-height:1}
+.wrap{max-width:1280px;margin:0 auto;padding:0 28px}
+nav{position:sticky;top:14px;z-index:5;display:flex;justify-content:center;pointer-events:none}
+nav .pill{pointer-events:auto;display:flex;gap:4px;padding:6px;border-radius:128px;background:rgba(255,255,255,.7);backdrop-filter:blur(24px) saturate(1.6);-webkit-backdrop-filter:blur(24px) saturate(1.6);box-shadow:0 16px 40px -18px rgba(30,40,70,.35);overflow-x:auto;max-width:calc(100vw - 24px)}
+nav a{white-space:nowrap;padding:9px 15px;border-radius:128px;color:var(--ink);text-decoration:none;font-size:15px;font-weight:600}
+nav a:hover{background:var(--card)}
+.hero{padding:120px 0 80px;text-align:center}
+.hero h1{font-size:clamp(46px,7.4vw,96px)}
+.hero p{max-width:640px;margin:26px auto 0;font-size:22px;line-height:1.35;color:var(--ink2)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:1080px;margin:56px auto 0}
+.stat{padding:26px 18px;border-radius:24px;background:var(--canvas);text-align:left}
+.stat b{display:block;font-size:44px;font-weight:700;letter-spacing:-.03em;line-height:1}
+.stat span{display:block;margin-top:8px;font-size:15px;color:var(--ink2)}
+.sec{padding:110px 0;border-top:1px solid var(--line)}
+.sec h2{font-size:clamp(40px,5.4vw,64px);max-width:900px}
+.sec .sub{max-width:720px;margin:18px 0 0;font-size:22px;line-height:1.35;color:var(--ink2)}
+.done{list-style:none;margin:34px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:10px}
+.done li{display:flex;gap:12px;align-items:flex-start;padding:16px 18px;border-radius:18px;background:var(--canvas);font-size:16px;line-height:1.4}
+.tk{flex:none;width:22px;height:22px;margin-top:1px;border-radius:50%;background:var(--ok) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m5 12.5 4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/14px no-repeat}
+.rail{display:flex;gap:22px;margin:44px -28px 0;padding:6px 28px 26px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:28px;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 28px,#000 calc(100% - 28px),transparent 100%)}
+.ph{flex:none;margin:0;width:268px;scroll-snap-align:start}
+.fr{border-radius:34px;overflow:hidden;background:#fff;box-shadow:0 0 0 7px #1F2025,0 30px 60px -28px rgba(30,40,70,.55);aspect-ratio:390/844}
+.fr img,.fr video{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+.ph figcaption{margin-top:20px;font-size:15px;line-height:1.35;color:var(--ink2)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:40px}
+.grid figure{margin:0}.grid img{display:block;width:100%;aspect-ratio:1;object-fit:cover;border-radius:16px}
+.grid figcaption{margin-top:8px;font-size:13px;line-height:1.3;color:var(--ink2)}
+table{width:100%;max-width:900px;margin-top:36px;border-collapse:separate;border-spacing:0 8px;font-size:17px}
+th{text-align:left;font-size:14px;font-weight:600;color:var(--cap);padding:0 18px}
+td{padding:16px 18px;background:var(--canvas)}td:first-child{border-radius:16px 0 0 16px}td:last-child{border-radius:0 16px 16px 0}
+td b{font-weight:700}.good{color:#4e8f10;font-weight:700}
+.dark{background:var(--dark);color:#fff;border-top:0}
+.dark .sub,.dark p,.dark li{color:rgba(255,255,255,.72)}
+.notes{list-style:none;margin:34px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:10px}
+.notes li{padding:22px;border-radius:24px;background:rgba(255,255,255,.06);font-size:16px;line-height:1.45}
+.notes li b{display:block;margin-bottom:6px;color:#fff;font-size:18px;font-weight:600}
+footer{padding:60px 0 90px;text-align:center;font-size:14px;color:var(--cap)}
+.reveal{opacity:0;transform:translateY(28px);filter:blur(8px);transition:opacity 1s var(--ease),transform 1s var(--ease),filter 1s var(--ease)}
+.reveal.in{opacity:1;transform:none;filter:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;filter:none;transition:none}}
+@media (max-width:760px){body{font-size:17px}.hero{padding:90px 0 60px}.stats{grid-template-columns:1fr 1fr}.stat b{font-size:34px}.sec{padding:80px 0}.ph{width:230px}.hero p,.sec .sub{font-size:19px}}
+
+.lede{max-width:760px;margin:22px auto 0;font-size:17px;line-height:1.45;color:var(--ink2)}
+.cols{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px;margin-top:34px}
+.card{padding:22px;border-radius:24px;background:var(--canvas)}
+.card h3{font-size:20px;letter-spacing:-.02em;line-height:1.2}
+.card p{margin:8px 0 0;font-size:15.5px;line-height:1.45;color:var(--ink2)}
+.card ol,.card ul{margin:10px 0 0;padding-left:20px;font-size:15px;line-height:1.5;color:var(--ink2)}
+.persona{margin-top:34px;display:grid;gap:10px;max-width:1080px}
+.persona div{padding:18px 20px;border-radius:18px;background:var(--canvas);font-size:15px;line-height:1.5}
+.persona b{display:block;font-size:16px;color:var(--ink);margin-bottom:4px}
+.persona span{color:var(--ink2)}
+.dark .card{background:rgba(255,255,255,.06)}.dark .card h3{color:#fff}.dark .card p,.dark .card li{color:rgba(255,255,255,.72)}
+.kicker{font-size:15px;font-weight:600;color:var(--cap);margin-bottom:16px;letter-spacing:0}
+</style>
+</head>
+<body>
+<nav><div class="pill"><a href='#onboarding'>Onboarding</a><a href='#score'>Score</a><a href='#community'>Community</a><a href='#wellbeing'>Wellbeing</a><a href='#training'>Training</a><a href='#food'>Food</a><a href='#voice'>Voice</a><a href='#share'>Share</a><a href='#trainers'>Trainers</a><a href='#principles'>Principles</a><a href='#checks'>Checks</a></div></nav>
+<header class="hero">
+  <div class="wrap">
+    <h1>Gabrielle's feedback.<br>Built and checked.</h1>
+    <p>Every item from 28 September, plus her training principles, in JF Coach V2.</p>
+    <p class="lede">Built, checked in phone-sized Chrome and reviewed. Australian food search and JFI&#x27;s new voice pacing went live on 29 September. Everything else goes live with the 1 October launch.</p>
+    <div class="stats"><div class="stat"><b>45</b><span>feedback items built</span></div><div class="stat"><b>96</b><span>new exercises, 237 in total</span></div><div class="stat"><b>63,610</b><span>Australian products searchable</span></div><div class="stat"><b>193</b><span>drinks with real serves</span></div></div>
+  </div>
+</header>
+<section class="sec" id="onboarding">
+  <div class="wrap">
+    <h2 class="reveal">Onboarding asks<br>the right things.</h2>
+    <p class="sub reveal">The questionnaire is easier to move around, and it now asks what a trainer would ask before building anything.</p>
+    <ul class="done"><li><span class="tk" aria-hidden="true"></span><span>The three lines are now a labelled Sections button. Tap any section to jump straight to it</span></li><li><span class="tk" aria-hidden="true"></span><span>Health check before any program: pregnancy or a baby in the last year, recent surgery, chest pain or dizziness, blood pressure that isn&#x27;t under control, and diagnosed conditions. Any of these asks for GP, physio or senior trainer sign-off and tells the trainer</span></li><li><span class="tk" aria-hidden="true"></span><span>Training age is years of training plus a quick check (could you do 10 push-ups from the floor?). The lower of the two wins</span></li><li><span class="tk" aria-hidden="true"></span><span>Everyone is asked about joint pain and whether they&#x27;re happy on the floor. Nothing is guessed from body size</span></li></ul>
+    
+    <div class="rail"><figure class="ph"><div class="fr"><img loading="lazy" src="img/before-A1-questionnaire-header.jpg" alt="Before: three lines, no label"></div><figcaption>Before: three lines, no label</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/A1-sections-button.jpg" alt="After: a Sections button"></div><figcaption>After: a Sections button</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/A1-sections-open.jpg" alt="Tap any section to jump to it"></div><figcaption>Tap any section to jump to it</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/G1-health-check.jpg" alt="The health check"></div><figcaption>The health check</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/G3-training-age-check.jpg" alt="Training age, checked"></div><figcaption>Training age, checked</figcaption></figure></div>
+  </div>
+</section>
+<section class="sec" id="score">
+  <div class="wrap">
+    <h2 class="reveal">Health Score and points<br>for the small things.</h2>
+    <p class="sub reveal">What to do next now fits the person, and meals, mood and breathing all count.</p>
+    <ul class="done"><li><span class="tk" aria-hidden="true"></span><span>What to do next gives three different, relevant suggestions based on the client&#x27;s goal category (Trim, Tone, Strong, Fit or Wellbeing). No more three versions of &#x27;do a workout&#x27;</span></li><li><span class="tk" aria-hidden="true"></span><span>Challengers earn JF points: 5 for each meal logged (up to 4 a day) and 15 more for logging breakfast, lunch and dinner</span></li><li><span class="tk" aria-hidden="true"></span><span>Rating your mood earns 5 points a day, a breathing exercise 10, and hitting your chosen mood goal for the week 30</span></li><li><span class="tk" aria-hidden="true"></span><span>Every client&#x27;s Health Score counts full meal days, the mood goal and breathing too, with honest &#x27;what this adds&#x27; previews</span></li></ul>
+    
+    <div class="rail"><figure class="ph"><div class="fr"><img loading="lazy" src="img/B1-what-to-do-next.jpg" alt="Three different next steps"></div><figcaption>Three different next steps</figcaption></figure><figure class="ph"><div class="fr"><video src="video/d1-mood-goal.mp4" poster="img/poster-d1-mood-goal.jpg" muted loop playsinline autoplay preload="metadata"></video></div><figcaption>Choose a mood goal</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/D1-mood-goal.jpg" alt="Earn line for challengers"></div><figcaption>Earn line for challengers</figcaption></figure></div>
+  </div>
+</section>
+<section class="sec" id="community">
+  <div class="wrap">
+    <h2 class="reveal">Train together,<br>not just side by side.</h2>
+    <p class="sub reveal">One club chat for everyone with the same trainer, and a workout can go straight to one mate.</p>
+    <ul class="done"><li><span class="tk" aria-hidden="true"></span><span>Community has a Your club chat row: challengers and Kickstart clients training with the same trainer, together</span></li><li><span class="tk" aria-hidden="true"></span><span>Challengers who only have JF support are routed into their club trainer&#x27;s chat, so nobody is left out</span></li><li><span class="tk" aria-hidden="true"></span><span>Send a workout to one mate from your chat with them. It arrives as a card with Add to my calendar, and only the two of you can see it</span></li><li><span class="tk" aria-hidden="true"></span><span>When your mate adds it to a day, you both earn 15 Community points</span></li><li><span class="tk" aria-hidden="true"></span><span>Also fixed on the way: the share list lost its stray bullet points, and card headings keep their spacing when Community is opened directly</span></li></ul>
+    
+    <div class="rail"><figure class="ph"><div class="fr"><video src="video/c2-send-workout.mp4" poster="img/poster-c2-send-workout.jpg" muted loop playsinline autoplay preload="metadata"></video></div><figcaption>Send a workout to Sam, then add Sam&#x27;s</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/C1-club-chat.jpg" alt="Your club chat"></div><figcaption>Your club chat</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/C1-club-room.jpg" alt="The club room"></div><figcaption>The club room</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/C2-pick-workout.jpg" alt="Pick one of yours"></div><figcaption>Pick one of yours</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/C2-sent-workout.jpg" alt="It lands in the chat"></div><figcaption>It lands in the chat</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/C2-add-sheet.jpg" alt="Add it to any day"></div><figcaption>Add it to any day</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/C2-added.jpg" alt="On your calendar"></div><figcaption>On your calendar</figcaption></figure></div>
+  </div>
+</section>
+<section class="sec" id="wellbeing">
+  <div class="wrap">
+    <h2 class="reveal">Wellbeing that<br>rewards the habit.</h2>
+    <p class="sub reveal">Breathing is a habit you can pick, and a mood goal gives the week a target.</p>
+    <ul class="done"><li><span class="tk" aria-hidden="true"></span><span>Breathing exercise is one of the Wellbeing habits. A breathing session of a minute or more ticks it for the day</span></li><li><span class="tk" aria-hidden="true"></span><span>Mood goal: 3, 5 or 7 days a week, with progress for this week and the points it earns</span></li></ul>
+    
+    
+  </div>
+</section>
+<section class="sec" id="training">
+  <div class="wrap">
+    <h2 class="reveal">Programs built the way<br>Gabrielle builds them.</h2>
+    <p class="sub reveal">The program builder and JFI now follow her training principles, with far more home, hotel, band and TRX options.</p>
+    <ul class="done"><li><span class="tk" aria-hidden="true"></span><span>96 new exercises (237 in the builder): TRX 13 beginner, 13 intermediate, 9 advanced; bands 33; bodyweight 56 for home, hotel rooms and outdoors</span></li><li><span class="tk" aria-hidden="true"></span><span>Every exercise has a training age. Diamond push-ups, Nordic curls and pull-ups are advanced only, never in beginner or intermediate programs</span></li><li><span class="tk" aria-hidden="true"></span><span>Regressions for older, pregnant and heavier clients: wall push-up, kneeling push-up, box squat, sit to stand, supported split squats with &#x27;hold something steady&#x27;</span></li><li><span class="tk" aria-hidden="true"></span><span>Swap to something above your level and the app flags it and offers the easier option (e.g. Swap to Kneeling Push Up). JFI says the same when asked for a swap</span></li><li><span class="tk" aria-hidden="true"></span><span>JFI keeps the week balanced: a swap stays in the same movement pattern, and &#x27;swap it for something else&#x27; now works instead of failing</span></li><li><span class="tk" aria-hidden="true"></span><span>Session length sets the count: 30 min is 4 to 5 exercises, 45 is 5 to 6, 60 is 6 to 8. Short sessions for intermediate and advanced clients end with one antagonist superset</span></li><li><span class="tk" aria-hidden="true"></span><span>Lower days alternate squat-led and hinge-led, pull days carry no chest work, push days are chest, triceps and side delts</span></li><li><span class="tk" aria-hidden="true"></span><span>Other activities are flagged by severity with a fix: netball on Saturday keeps leg days off Friday and Saturday</span></li><li><span class="tk" aria-hidden="true"></span><span>Next phase looks back: keeps the main lift that progressed, swaps skipped or painful accessories, adds a set when earned</span></li><li><span class="tk" aria-hidden="true"></span><span>Fat-loss goals get the 150 to 300 minutes of cardio a week aim, at a pace where you can still talk. Joint pain keeps jumping moves out</span></li></ul>
+    <p class="kicker reveal" style="margin-top:44px">Sample programs the builder makes now (fixture clients)</p><div class="persona reveal"><div><b>Beginner, hotel room, bodyweight only, 3 days</b><span>Box squat, wall push-up, prone T&#x27;s, reverse lunge, glute bridge, bird dog. Every day keeps a pull, even with no equipment</span></div><div><b>Intermediate, home with bands and TRX, 4 days, 45 min</b><span>Suspension chest press, suspension low row, pike push-up to reach, band lat pulldown, suspension triceps, band curl. Six exercises for 45 minutes</span></div><div><b>Advanced, full gym, 4 days, 30 min</b><span>Machine chest press, Smith row, then an antagonist superset of shoulder press and assisted pull-up, then dips. Five exercises for 30 minutes</span></div><div><b>Aged 68, beginner, gym, not comfortable on the floor</b><span>Leg press, machine chest press, Smith row, supported reverse lunge, cable triceps, single-leg balance. No floor work, balance every session</span></div><div><b>Pregnant (cleared), intermediate, gym</b><span>No floor or barbell work, no jumping, no supersets, and every exercise carries &#x27;breathe out as you push, never hold your breath, stop if anything feels off&#x27;</span></div></div>
+    <div class="rail"><figure class="ph"><div class="fr"><video src="video/g-program-builder.mp4" poster="img/poster-g-program-builder.jpg" muted loop playsinline autoplay preload="metadata"></video></div><figcaption>Build, clash note, cardio aim</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/F4-picker-levels.jpg" alt="Levels in the exercise picker"></div><figcaption>Levels in the exercise picker</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/F4-swap-flag.jpg" alt="Above your level? Easier option"></div><figcaption>Above your level? Easier option</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/G9-clash-build.jpg" alt="Activities flagged by severity"></div><figcaption>Activities flagged by severity</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/G9-review-clash.jpg" alt="The fix, on Review"></div><figcaption>The fix, on Review</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/G11-cardio-aim.jpg" alt="Cardio beside the sessions"></div><figcaption>Cardio beside the sessions</figcaption></figure></div>
+  </div>
+</section>
+<section class="sec" id="food">
+  <div class="wrap">
+    <h2 class="reveal">Food logging that<br>knows Australia.</h2>
+    <p class="sub reveal">Swapping and reading meals on the review page, everyday units, and tens of thousands of Australian products.</p>
+    <ul class="done"><li><span class="tk" aria-hidden="true"></span><span>Filters when swapping a meal on the review page, before the guide is applied</span></li><li><span class="tk" aria-hidden="true"></span><span>Open the full recipe while reviewing a meal guide</span></li><li><span class="tk" aria-hidden="true"></span><span>63,610 Australian products searchable: Woolworths 7,576, Coles 6,149, Aldi 1,866, plus 1,561 Australian food composition entries</span></li><li><span class="tk" aria-hidden="true"></span><span>193 drinks with real serves: middy, schooner, pint, can, stubby, glass of wine, nip. VB, Great Northern, Bundy and cola, espresso martini and more</span></li><li><span class="tk" aria-hidden="true"></span><span>Barcodes check Australian labels first, 14-digit codes match, and kJ-only labels are converted instead of showing 0</span></li><li><span class="tk" aria-hidden="true"></span><span>Small, medium, large and whole, half, quarter for produce, wraps and fruit, e.g. &#x27;½ medium cucumber (65 g)&#x27;</span></li><li><span class="tk" aria-hidden="true"></span><span>tsp and tbsp for oil, mayo and spreads</span></li><li><span class="tk" aria-hidden="true"></span><span>Cucumber is 12 to 15 calories per 100 g. Impossible produce rows (a 482-calorie cucumber) are filtered out</span></li><li><span class="tk" aria-hidden="true"></span><span>Live now: the Australian products, drinks, barcodes and cucumber fix. The rest arrives with the 1 October app update</span></li><li><span class="tk" aria-hidden="true"></span><span>Naming a meal made from a saved ingredient list saves properly now</span></li><li><span class="tk" aria-hidden="true"></span><span>Add ingredients to a meal you already saved</span></li></ul>
+    
+    <div class="rail"><figure class="ph"><div class="fr"><video src="video/h5-au-search.mp4" poster="img/poster-h5-au-search.jpg" muted loop playsinline autoplay preload="metadata"></video></div><figcaption>VB, Coles milk, espresso martini</figcaption></figure><figure class="ph"><div class="fr"><video src="video/h7-food-units.mp4" poster="img/poster-h7-food-units.jpg" muted loop playsinline autoplay preload="metadata"></video></div><figcaption>½ medium cucumber</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/H1-review-swap-filters.jpg" alt="Swap with filters"></div><figcaption>Swap with filters</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/H2-review-recipe.jpg" alt="The full recipe on review"></div><figcaption>The full recipe on review</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/H5-search-cucumber.jpg" alt="Cucumber, correct"></div><figcaption>Cucumber, correct</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/H8-oil-tbsp.jpg" alt="tbsp for oil"></div><figcaption>tbsp for oil</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/H10-edit-saved-meal.jpg" alt="Add to a saved meal"></div><figcaption>Add to a saved meal</figcaption></figure></div>
+  </div>
+</section>
+<section class="sec" id="voice">
+  <div class="wrap">
+    <h2 class="reveal">JFI's voice keeps up<br>and knows when to stop.</h2>
+    <p class="sub reveal">Quicker to speak and answer, stops the moment you talk, and ignores the room.</p>
+    <ul class="done"><li><span class="tk" aria-hidden="true"></span><span>Speaks at a brisk, natural pace and answers first, in short turns</span></li><li><span class="tk" aria-hidden="true"></span><span>Stops the moment you talk over it: the phone silences JFI itself as soon as you say two words or &#x27;stop&#x27;, &#x27;wait&#x27;, &#x27;hang on&#x27;. A quiet &#x27;mm&#x27; or &#x27;yeah&#x27; doesn&#x27;t cut it off</span></li><li><span class="tk" aria-hidden="true"></span><span>Less background pickup: voice isolation on the microphone where the phone supports it, and JFI ignores music, TV, gym noise and other people&#x27;s conversations</span></li><li><span class="tk" aria-hidden="true"></span><span>Same rules in the program builder and meal guide voice</span></li><li><span class="tk" aria-hidden="true"></span><span>Live now: the pace, interruption and background-noise rules. With the 1 October app update: the phone-side instant stop and voice isolation</span></li></ul>
+    <div class="cols reveal"><div class="card"><h3>Why not a speed dial?</h3><p>OpenAI's GPT Live has no speaking-speed, turn-taking or noise setting (checked against their current SDK). So the speed comes from how JFI is told to speak, and the instant stop comes from the phone.</p></div></div>
+    
+  </div>
+</section>
+<section class="sec" id="share">
+  <div class="wrap">
+    <h2 class="reveal">Celebrate it,<br>then share it.</h2>
+    <p class="sub reveal">Goals and milestones get their moment, and sharing looks and works like it should.</p>
+    <ul class="done"><li><span class="tk" aria-hidden="true"></span><span>Hitting a goal or milestone shows confetti and a Share to Instagram button on the same screen, once per milestone</span></li><li><span class="tk" aria-hidden="true"></span><span>New story design: light, on brand, and a clean stat card</span></li><li><span class="tk" aria-hidden="true"></span><span>Fixed: sharing no longer sticks on &#x27;Making your video&#x27;. The picture is ready straight away and the video follows</span></li><li><span class="tk" aria-hidden="true"></span><span>Trainers can share a client&#x27;s progress to their own Instagram, with a consent tick first</span></li></ul>
+    
+    <div class="rail"><figure class="ph"><div class="fr"><video src="video/k1-share.mp4" poster="img/poster-k1-share.jpg" muted loop playsinline autoplay preload="metadata"></video></div><figcaption>Video ready, then share</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/J1-goal-celebration.jpg" alt="Goal reached"></div><figcaption>Goal reached</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/K1-share-page.jpg" alt="Share a win"></div><figcaption>Share a win</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/K1-story-jfmoji.jpg" alt="The story"></div><figcaption>The story</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/K2-trainer-story.jpg" alt="A trainer&#x27;s story"></div><figcaption>A trainer&#x27;s story</figcaption></figure></div>
+  </div>
+</section>
+<section class="sec" id="trainers">
+  <div class="wrap">
+    <h2 class="reveal">Trainers see<br>the wins.</h2>
+    <p class="sub reveal">More of what clients do shows up in the trainer&#x27;s activity list, quietly.</p>
+    <ul class="done"><li><span class="tk" aria-hidden="true"></span><span>Goal milestones in the activity list, e.g. &#x27;Alex has reached 50% of their goal&#x27;, with no push notification</span></li><li><span class="tk" aria-hidden="true"></span><span>Tap it to open that client&#x27;s card at their Starting goal, with a progress bar and their measurements</span></li><li><span class="tk" aria-hidden="true"></span><span>Trainers can comment on an activity, straight from the list</span></li></ul>
+    
+    <div class="rail"><figure class="ph"><div class="fr"><img loading="lazy" src="img/L1-trainer-milestone.jpg" alt="A milestone in the activity list"></div><figcaption>A milestone in the activity list</figcaption></figure><figure class="ph"><div class="fr"><img loading="lazy" src="img/L3-comment.jpg" alt="Comment straight from the list"></div><figcaption>Comment straight from the list</figcaption></figure></div>
+  </div>
+</section>
+<section class="sec dark" id="principles">
+  <div class="wrap">
+    <h2 class="reveal">Gabrielle's training<br>principles, read through.</h2>
+    <p class="sub reveal">She asked whether we agree with them. Short answer: yes, with three small tweaks and two questions.</p>
+    
+    <div class="cols reveal">
+<div class="card"><h3>Agree</h3><p>Nearly all of it, and it is now how the builder and JFI work. Screening first, training age that is checked not just claimed, one pull on every full body day, two exercises per muscle a week with 48 hours between, antagonist supersets only where they save time, and never inferring anything from body size.</p></div>
+<div class="card"><h3>Three small tweaks</h3><ol><li>Add a lower-body check next to the 10 push-ups (for example 10 controlled box squats), so training age isn't judged on upper body alone.</li><li>Let a client choose an advanced move after the heads-up rather than blocking it. That's how it works now.</li><li>Deload when fewer than half the planned sessions were done in a phase, as well as on a schedule.</li></ol></div>
+<div class="card"><h3>Two questions for Gabrielle</h3><ol><li>Pregnancy and postnatal: should the program wait until the trainer ticks "cleared" in the app, instead of building with the pregnancy rules and flagging it?</li><li>Older adults: the rules switch on at 60. Is that the right age, and should onboarding ask it directly?</li></ol></div>
+</div>
+    
+  </div>
+</section>
+<section class="sec" id="checks">
+  <div class="wrap">
+    <h2 class="reveal">Checked before<br>it ships.</h2>
+    <p class="sub reveal">Built, checked in phone-sized Chrome and reviewed. Australian food search and JFI&#x27;s new voice pacing went live on 29 September. Everything else goes live with the 1 October launch.</p>
+    
+    <table class="reveal"><tr><th>Check</th><th>Result</th></tr>
+<tr><td>Launch test suite (server and app)</td><td class="good">632 passed, 0 failed</td></tr>
+<tr><td>Program builder and JFI copilot tests</td><td class="good">130 passed</td></tr>
+<tr><td>Food tests incl. the Australian supplement</td><td class="good">98 passed</td></tr>
+<tr><td>Community, wellbeing, points, voice tests</td><td class="good">all passed</td></tr>
+<tr><td>Production build and type check</td><td class="good">clean</td></tr>
+<tr><td>Every screen above</td><td>checked in phone-sized Chrome on Workbench, sample data only</td></tr>
+<tr><td>Independent code review</td><td>Astra bulk review found 2 blockers and 6 majors. All are fixed and covered by tests.</td></tr>
+</table>
+    
+  </div>
+</section>
+
+<footer>JF Coach V2 · Gabrielle's feedback, 28 September 2026 · sample data only</footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal,.done li,.ph').forEach(el=>{el.classList.add('reveal');io.observe(el)});
+</script>
+</body>
+</html>
